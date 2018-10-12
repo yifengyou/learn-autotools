@@ -15,19 +15,20 @@ Bug report, questions and discussion are welcome, you can post an issue or pull 
 ## autotools简介
 
 * 首先autotools是工具集！！工具集！！工具集！！
-* 包括 aclocal + autoscan + autoconf + autoheader + automake
+* 包括 autoconf包 + automake包 + libtool包
+* 命令包括```autoconf+autoheader+autoreconf+autoupdate+autom4te+autoscan+ifnames+aclocal+automake```
 * 一般而言，对于小项目或玩具程序，手动编写 Makefile 即可。但对于大型项目，手动编写维护 Makefile 成为一件费时费力的无聊工作。所以诞生了该工具集
 
 ```
 Autoconf： 用于为工程产生配置脚本；
 Automake： 用于简化创建一致性和功能性Makefile的过程；
-Libtools： 用于为共享库的可移植创建提供一个抽象；
+Libtool： 用于为共享库的可移植创建提供一个抽象；
 ```
 
 
 ## 相关站点
 
-* 源码获取:<ftp://ftp.gnu.org/gnu/>
+* 源码获取:<ftp://ftp.gnu.org/gnu>
 * GNU Autoconf站点:<http://www.gnu.org/software/autoconf>
 
 
@@ -46,7 +47,11 @@ Libtools： 用于为共享库的可移植创建提供一个抽象；
 * [在Autoconf中使用M4](docs/Using-the-M4-Macro-Processor-with-Autoconf/Using-the-M4-Macro-Processor-with-Autoconf.md)
 * [创建大项目的技巧和可重用解决方案](docs/A-Catalog-of-Tips-and-Reusable-Solutions-for-Creating-Great-Projects/A-Catalog-of-Tips-and-Reusable-Solutions-for-Creating-Great-Projects.md)
 
+## 参考书籍
 
+《Autotools : a practitioner's guide to GNU Autoconf, Automake, and Libtool》
+
+![1539321085440.png](image/1539321085440.png)
 
 ## 思维导图
 
@@ -57,19 +62,9 @@ Libtools： 用于为共享库的可移植创建提供一个抽象；
 ![1539330820681.png](image/1539330820681.png)
 
 
+## 参考博客
 
-
-
-## 参考教程
-
-《Autotools : a practitioner's guide to GNU Autoconf, Automake, and Libtool》
-
-![1539321085440.png](image/1539321085440.png)
-
-
-
-## 参考书籍
-
+<https://www.cnblogs.com/gaowengang/p/6170098.html>
 
 
 ## 总结
